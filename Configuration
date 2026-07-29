@@ -1,1 +1,26 @@
+S/N	Configuration Area	Description	Status
+1	Virtual Lab Setup	Installed Oracle VirtualBox and created Ubuntu Server, Kali Linux, and Metasploitable2 virtual machines.	✅ Completed
+2	Network Configuration	Configured the virtual network using a Host-Only Adapter and verified connectivity between all virtual machines.	✅ Completed
+3	Ubuntu Installation	Installed Ubuntu 26.04 LTS and performed initial system configuration.	✅ Completed
+4	System Update	Updated Ubuntu packages and repositories to the latest versions.	✅ Completed
+5	Suricata Installation	Installed Suricata IDS on Ubuntu and verified the installation.	✅ Completed
+6	Suricata Service Configuration	Started, restarted, and verified the Suricata service using systemctl.	✅ Completed
+7	Network Interface Configuration	Identified and configured the correct network interface for Suricata monitoring.	✅ Completed
+8	Suricata Configuration File	Edited suricata.yaml to configure rule loading and IDS settings.	✅ Completed
+9	Custom Rule Configuration	Created custom detection rules in local.rules for ICMP, HTTP, FTP, DNS, and Telnet traffic.	✅ Completed
+10	Rule Validation	Tested the Suricata configuration using suricata -T to validate the rule syntax.	✅ Completed
+11	Traffic Generation	Generated ICMP, FTP, HTTP, and DNS traffic from Kali Linux for IDS testing.	✅ Completed
+12	Alert Monitoring	Monitored alerts using fast.log to verify Suricata detection capabilities.	✅ Completed
+13	Connectivity Testing	Verified communication among Ubuntu, Kali Linux, and Metasploitable2 using network utilities.	✅ Completed
+14	Troubleshooting	Resolved issues related to networking, rule loading, YAML configuration, and Suricata service management.	✅ Completed
 
+Project Completion Summary
+Component	Completion Status
+Virtual Lab Setup	✅ 100%
+Ubuntu Configuration	✅ 100%
+Suricata Installation	✅ 100%
+Network Configuration	✅ 100%
+Custom Rules Development	✅ 100%
+Traffic Testing	✅ 100%
+Alert Analysis	✅ 100%
+Troubleshooting	✅ 100%
